@@ -1,0 +1,16 @@
+Threat Model Report for: Customer Banking Database
+
+
+Component: Database
+- Tampering: Unauthorized data modification
+  Risk Level: Medium
+  Mitigation: Validate input and use integrity checks
+- Information Disclosure: Unencrypted sensitive data
+  Risk Level: Medium
+  Mitigation: Encrypt sensitive data in transit and at rest
+- Denial of Service: Database locking or flooding
+  Risk Level: Medium
+  Mitigation: Apply rate limiting and monitoring
+- Elevation of Privilege: Excessive database permissions
+  Risk Level: Medium
+  Mitigation: Use least privilege and role-based access control
