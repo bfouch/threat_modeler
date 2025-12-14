@@ -24,7 +24,7 @@ def main():
         report.append(F"\nComponent: {component}")
 
         for threat, description in STRIDE_RULES[component].items():
-            risk = calculate_risk(handles_pii, public-facing, threat)
+            risk = calculate_risk(handles_pii, public_facing, threat)
             mitigation = MITIGATIONS.get(threat, "Review security controls")
 
             report.append(
@@ -33,7 +33,7 @@ def main():
                 f"  Mitigation: {mitigation}"
                 )
 
-    filename = f"{system__name.replace(' ', '_').lower()}_threat_model.txt"
+    filename = f"{system_name.replace(' ', '_').lower()}_threat_model.txt"
     with open(filename, "w") as f:
         f.write("\n".join(report))
 
