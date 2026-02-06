@@ -42,9 +42,9 @@ Additional components may be added in future versions.
 
 ### Installation
 Clone the repository:
-git clone https://github.com/your-username/threat-modeling-cli.git
+git clone https://github.com/bfouch/threat_modeler.git
 
-cd threat-modeling-cli
+cd threat_modeler
 
 Run the tool:
 
